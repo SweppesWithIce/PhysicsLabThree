@@ -1,0 +1,6 @@
+ccd-check: hz=60 runs=2000 (v = 250..6000 px/s, random phase)
+  impacts found: 2000, bounced: 2000, no impact: 0
+  max |t_c - exact|      = 0.000e+00 s
+  max |x_c - x_face|     = 0.000e+00 px
+  max |v_after + e*v|    = 0.000e+00 px/s
+  max |x_end - exact|    = 0.000e+00 px

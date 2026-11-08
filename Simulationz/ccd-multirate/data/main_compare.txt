@@ -1,0 +1,11 @@
+main-compare: T=60 s, 40 normal + 10-block stack + 5 projectiles @ 4000 px/s
+  discrete 60 Hz           tunnels 125/205 (0.610)  hits 182 bounced  57 depth mean 16.43 max 33.91  |v'/v+e| 0.0e+00
+                           stack dx 0.000 sink 5.000 KE 1.91e-27 vmax 0.093  deterministic=yes  desync mean 0.00 max 0.00 (pred 0.00)
+  CCD 60 Hz                tunnels   0/205 (0.000)  hits 178 bounced 178 depth mean 0.00 max 0.00  |v'/v+e| 0.0e+00
+                           stack dx 0.000 sink 4.744 KE 1.91e-27 vmax 0.042  deterministic=yes  desync mean 0.00 max 0.00 (pred 0.00)
+  multi-rate 60/240 Hz     tunnels   0/205 (0.000)  hits 187 bounced 187 depth mean 8.33 max 16.50  |v'/v+e| 0.0e+00
+                           stack dx 0.000 sink 5.000 KE 1.91e-27 vmax 0.093  deterministic=yes  desync mean 1.10 max 8.12 (pred 6.31)
+  multi-rate 60/120 Hz     tunnels  65/205 (0.317)  hits 190 bounced 125 depth mean 15.31 max 32.95  |v'/v+e| 1.1e-16
+                           stack dx 2.117 sink 4.605 KE 1.88e-27 vmax 162.282  deterministic=yes  desync mean 0.53 max 7.54 (pred 4.01)
+  discrete 240 Hz (all)    tunnels   3/205 (0.015)  hits 184 bounced 183 depth mean 8.21 max 16.29  |v'/v+e| 1.1e-16
+                           stack dx 0.000 sink 0.864 KE 1.20e-28 vmax 0.000  deterministic=yes  desync mean 0.00 max 0.00 (pred 0.00)

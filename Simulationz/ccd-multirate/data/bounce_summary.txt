@@ -1,0 +1,10 @@
+bounce: hz=60 e=0.50 h=300.0 mode=discrete
+  v_in (step before) = 767.667 px/s   (theory sqrt(2gh) = 766.812)
+  v_solve = v_in + g*dt = 784.000 px/s, depth at detection = 7.067 px
+  v_out = 392.000 px/s   v_out/v_solve = 0.500000 (theory e = 0.5000)
+  apex  = 74.629 px  (continuous e^2*h = 75.000; semi-implicit from v_out: v^2/2g - v*dt/2 = 75.133)
+bounce: hz=240 e=0.50 h=300.0 mode=discrete
+  v_in (step before) = 767.667 px/s   (theory sqrt(2gh) = 766.812)
+  v_solve = v_in + g*dt = 771.750 px/s, depth at detection = 2.269 px
+  v_out = 385.875 px/s   v_out/v_solve = 0.500000 (theory e = 0.5000)
+  apex  = 74.647 px  (continuous e^2*h = 75.000; semi-implicit from v_out: v^2/2g - v*dt/2 = 75.165)

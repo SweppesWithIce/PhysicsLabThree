@@ -1,0 +1,5 @@
+determinism: bodies=60 steps=1200 room=1 mode=discrete
+  fixed run #1      hash=5f399e9f4cc5e5fb
+  fixed run #2      hash=5f399e9f4cc5e5fb
+  accumulator run   hash=5f399e9f4cc5e5fb  (899 frames of random length 4..40 ms)
+  result: IDENTICAL

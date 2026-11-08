@@ -1,0 +1,10 @@
+build/
+*.bmp
+imgui.ini
+__pycache__/
+report/template/
+report/out/
+media/_raw/
+out/
+.vs/
+CMakeSettings.json

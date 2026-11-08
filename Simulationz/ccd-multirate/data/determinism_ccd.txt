@@ -1,0 +1,5 @@
+determinism: bodies=60 steps=1200 room=1 mode=ccd
+  fixed run #1      hash=80203a4440e86edd
+  fixed run #2      hash=80203a4440e86edd
+  accumulator run   hash=80203a4440e86edd  (899 frames of random length 4..40 ms)
+  result: IDENTICAL

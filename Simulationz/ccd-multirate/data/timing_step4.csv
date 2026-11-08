@@ -1,0 +1,7 @@
+case,ms_per_frame,ms_per_frame_median,fast_steps_per_frame,projectiles_behind_wall
+discrete 60 Hz,0.020011,0.020689,1.000,4
+discrete 240 Hz (all bodies),0.093147,0.104905,4.000,0
+CCD 60 Hz,0.042287,0.051827,1.000,0
+multi-rate 60/60 Hz,0.032596,0.032921,1.000,4
+multi-rate 60/120 Hz,0.029552,0.035752,2.000,4
+multi-rate 60/240 Hz,0.042246,0.042769,4.000,0

@@ -1,0 +1,6 @@
+tunnel: hz=60 v=2000 L=v*dt=33.333 px mode=multirate fast_hz=60, |x - x_wall| < 9.0 means overlap
+  positions relative to wall center: -48.33 -15.00 18.33
+  outcome: MISS (no overlap ever detected) -> passed through
+tunnel: hz=60 v=2000 L=v*dt=8.333 px mode=multirate fast_hz=240, |x - x_wall| < 9.0 means overlap
+  positions relative to wall center: -48.33 -15.00 -19.17
+  outcome: BOUNCE

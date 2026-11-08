@@ -1,0 +1,4 @@
+stack: hz=60 boxes=10 iters=10 warm=1 T=10 s mode=ccd
+  top sink after 1 s = 4.6916 px, after T = 4.6895 px
+  max |dx| = 0.000000 px, max depth = 0.7489 px, mean KE last 1 s = 2.66608e-27
+  CCD impacts per step = 0.01, steps with TOI limit exhausted = 0.0%

@@ -1,0 +1,8 @@
+timing: normal=40 fast=5 v=2000 T=20 s, 11 runs (min and median)
+  case                            ms/fr min  ms/fr med fast steps/frame     passed
+  discrete 60 Hz                     0.0200     0.0207              1.0       4/5
+  discrete 240 Hz (all bodies)       0.0931     0.1049              4.0       0/5
+  CCD 60 Hz                          0.0423     0.0518              1.0       0/5
+  multi-rate 60/60 Hz                0.0326     0.0329              1.0       4/5
+  multi-rate 60/120 Hz               0.0296     0.0358              2.0       4/5
+  multi-rate 60/240 Hz               0.0422     0.0428              4.0       0/5

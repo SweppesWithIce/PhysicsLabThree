@@ -1,0 +1,4 @@
+stack: hz=60 boxes=10 iters=10 warm=1 T=10 s mode=multirate
+  top sink after 1 s = 5.8772 px, after T = 5.0000 px
+  max |dx| = 0.000000 px, max depth = 1.5820 px, mean KE last 1 s = 4.76605e-27
+  CCD impacts per step = 0.00, steps with TOI limit exhausted = 0.0%
